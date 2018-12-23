@@ -19,7 +19,7 @@
   position: relative;
   margin: false;
   
-  float: left;
+  
 }
 .abs-center {
   display: false;
@@ -236,23 +236,45 @@ h3 {
 #contact{
   text-align: center;
 }
-.iconcode{
-padding-left: 3%;
+
+.icond{
+padding-left: 40%;
 }
-.iconhelp{
-  padding-left: 6%;
-  }
-.iconplane{
-  padding-left: 9%;
-  }
-  .iconswim{
-    padding-left: 20%;
-    }
+
+#progress {
+  
+  margin-left: 35%;
+  margin-bottom: -3%;
+  width: 180px;
+  height: 8px;
+}
+#progress2 {
+  
+  margin-left: 35%;
+  margin-bottom: -3%;
+  width: 180px;
+  height: 8px;
+}
+#progress3 {
+  
+  margin-left: 35%;
+  margin-bottom: -3%;
+  width: 180px;
+  height: 8px;
+}
+#progress4 {
+  
+  margin-left: 35%;
+  margin-bottom: -3%;
+  width: 180px;
+  height: 8px;
+}
+
 .interet{
   font-size: 18px;
 }
 .fas{
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   color: #848484;
   font-size: 3em;
 }
