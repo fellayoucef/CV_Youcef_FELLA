@@ -1,5 +1,22 @@
 
+
+var defile;// l'element a deplacer 
+        var psinit = 1250; // position horizontale de depart 
+        var pscrnt = psinit;       
+        function texteDefile() { 
+           if (!defile) defile = document.getElementById('defile'); 
+           if (defile) { 
+              if(pscrnt < ( - defile.offsetWidth) ){ 
+                 pscrnt = psinit; 
+                        } else { 
+                 pscrnt+= -2; // pixel par deplacement 
+              } 
+              defile.style.left = pscrnt+"px"; 
+           } 
+        } 
+        setInterval("texteDefile()",20); 
 window.onload = function onLoad() {
+  
     var bar = new ProgressBar.Line('#progress', {
         strokeWidth: 5,
         easing: 'easeInOut',
