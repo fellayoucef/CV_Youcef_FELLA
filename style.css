@@ -293,7 +293,7 @@ h3 {
   font-weight: 600;
   line-height: 28px;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1150px), screen and (max-height: 1150px) {
 
   .name {
     color: #fff;
@@ -314,7 +314,7 @@ h3 {
   }
   
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 400px), screen and (max-height: 400px) {
   .name {
     color: #fff;
     font-family: "Raleway";
