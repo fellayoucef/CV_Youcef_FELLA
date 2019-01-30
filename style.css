@@ -36,8 +36,7 @@ body {
   letter-spacing: 0px;
   font-weight: 400;
   line-height: 28px;
-  background: url("http://kingofwallpapers.com/leaves/leaves-016.jpg") right
-    no-repeat;
+  
   background-size: cover;
 }
 body:before {
@@ -295,6 +294,7 @@ h3 {
   line-height: 28px;
 }
 @media screen and (max-width: 1150px) {
+
   .name {
     color: #fff;
     font-family: "Raleway";
@@ -303,17 +303,45 @@ h3 {
     font-weight: 100;
     line-height: 48px;
   }
+  body {
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 28px;
+    
+    background-size: cover;
+  }
+  
 }
-
+@media screen and (min-width: 600px) {
+  .name {
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 38px;
+    letter-spacing: 6px;
+    font-weight: 100;
+    line-height: 48px;
+  }
+  body {
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 28px;
+    
+    background-size: cover;
+  }
+}
 .buttonDownload {
 	display: inline-block;
 	position: relative;
   padding: 10px 25px;
-  margin-left: 420px;
+  
   
 	background-color:rgb(0, 112, 192);
 	color: white;
-  
+  margin-left: 67%;
 	font-family: sans-serif;
 	text-decoration: none;
 	font-size: 0.9em;
@@ -334,7 +362,7 @@ h3 {
 	top: 52%;
 }
 
-/* Download box shape  */
+
 .buttonDownload:before {
 	width: 10px;
 	height: 2px;
@@ -342,7 +370,7 @@ h3 {
 	border-width: 0 2px 2px;
 }
 
-/* Download arrow shape */
+
 .buttonDownload:after {
 	width: 0;
 	height: 0;
@@ -367,9 +395,8 @@ h3 {
 	animation-play-state: running;
 }
 
-/* keyframes for the download icon anim */
 @keyframes downloadArrow {
-	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+
 	0% {
 		margin-top: -7px;
 		opacity: 1;
@@ -390,4 +417,4 @@ h3 {
   }
   
 }
-.btndwld{margin-left: 890px;}
+.btndwld{margin-left: 78%;}
